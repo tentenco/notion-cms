@@ -1,14 +1,14 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
-  description: 'This gonna be an awesome website.',
+  title: 'Tenten Knowledgebase - Digital Marketing',
+  author: 'Tenten',
+  email: 'inquiry@tenten.co',
+  link: 'https://tenten.co',
+  description: 'FREE online learning community with on-demand courses, hundreds of expert-led sessions of digital marketing, digital transformation and product articles',
   lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
-  darkBackground: '#111827', // use hex value, don't forget '#'
+  lightBackground: '#faf6f1', // use hex value, don't forget '#' e.g #fffefc
+  darkBackground: '#1c1d2c', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2021, // if leave this empty, current year will be used.
   postsPerPage: 7,
@@ -16,9 +16,9 @@ const BLOG = {
   showAbout: true, // WIP
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://www.facebook.com/tentencreative',
   seo: {
-    keywords: ['Blog', 'Website', 'Notion'],
+    keywords: ['Web Design', 'Digital transformation', 'HubSpot CRM',  'customer experience', 'UX/ UI'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
