@@ -18,7 +18,7 @@
 
 [中文說明 / [English](README.md)]
 
-Demo地址：[https://nobelium.vercel.app/](https://nobelium.vercel.app/)
+Demo地址：[https://knowledge.tenten.co/](https://knowledge.tenten.co/)
 
 <details><summary> 截圖</summary>
 <img src="https://github.com/craigary/nobelium/blob/main/desktop.png?raw=true">
