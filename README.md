@@ -21,7 +21,7 @@ A static blog build on top of Notion and Nextjs, deployed on [Vercel](https://ve
 
 [[中文说明](README-CN.md) | English]
 
-Demo: [https://nobelium.vercel.app/](https://nobelium.vercel.app/)
+Demo: [https://knowledge.tenten.co/](https://knowledge.tenten.co/)
 
 <details><summary>Screenshot</summary>
 <img src="https://github.com/craigary/nobelium/blob/main/desktop.png?raw=true">
