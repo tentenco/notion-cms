@@ -2,7 +2,7 @@
 
 # Nobelium
 
-一个使用 NextJS + Notion API 实现的，部署在 Vercel 上的静态博客系统。为 Notion 和所有创作者设计。
+一個使用 NextJS + Notion API 實現的，部署在 Vercel 上的靜態部落格系統。為 Notion 和所有創作者設計。
 
 <p>
   <a aria-label="GitHub commit activity" href="https://github.com/craigary/nobelium/commits/main" title="GitHub commit activity">
@@ -16,85 +16,85 @@
   </a>
 </p>
 
-[中文说明 / [English](README.md)]
+[中文說明 / [English](README.md)]
 
-演示地址：[https://nobelium.vercel.app/](https://nobelium.vercel.app/)
+Demo地址：[https://nobelium.vercel.app/](https://nobelium.vercel.app/)
 
-<details><summary>截图</summary>
+<details><summary> 截圖</summary>
 <img src="https://github.com/craigary/nobelium/blob/main/desktop.png?raw=true">
 </details>
 
-## 亮点 ✨
+## 亮點 ✨
 
-**🚀 &nbsp;秒开，设备全适配**
+**🚀 &nbsp;秒開，設備全適配**
 
-- 快速的页面渲染和响应式设计
-- 高效编译器的快速静态页面生成
+- 快速的頁面渲染和響應式設計
+- 高效編譯器的快速靜態頁面生成
 
-**🤖 &nbsp;自动，无需重新部署**
+**🤖 &nbsp;自動，無需重新部署**
 
-- 部署在免费、高速的 Vercel 平台
-- 支持增量式更新，更新文章后无需重复部署
+- 部署在免費、高速的 Vercel 平台
+- 支持增量式更新，更新文章后無需重複部署
 
 **🚙 &nbsp;全功能，完全不操心**
 
-- 评论、宽页面、搜索和标签
-- 订阅、网站统计、Web Vital 分析…… 还有更多功能待你发现
+- 評論、寬頁面、搜索和標籤
+- 訂閱、網站統計、Web Vital 分析…… 還有更多功能待你發現
 
-**🎨 &nbsp;美观，轻松自定义**
+**🎨 &nbsp;美觀，輕鬆自定義**
 
-- 丰富的配置项，更支持多语言
-- 使用 Tailwind CSS，轻松实现二次开发
+- 豐富的配置項，更支持多語言
+- 使用 Tailwind CSS，輕鬆實現二次開發
 
-**🕸 &nbsp;网址美观、搜索引擎优化**
+**🕸 &nbsp;網址美觀、搜索引擎優化**
 
 ## 快速起步
 
-- 给这个项目点个小星星 😉
-- 将 [这个 Notion 模板](https://www.notion.so/68be9021bca34b8e89f0246f27e608df) 制作副本，并分享这个页面给所有人
-- [Fork](https://github.com/craigary/nobelium/fork) 这个项目
-- 在 `blog.config.js` 配置相关选项
-- _(可选)_ 用自己的图片替换 `/public` 文件夹里的 `avatar.svg`、`favicon.svg` 和 `favicon.ico`
-- 在 [Vercel](https://vercel.com) 上部署这个项目, 设定一下环境变量：
-  - `NOTION_PAGE_ID`: 你刚刚分享出去的 Notion 页面网址中的页面 ID，通常是网址中工作区地址后的 32 位字符串
-  - `NOTION_ACCESS_TOKEN`（可选）: 如果你决定不分享你的数据库，你可以使用 token 来让 Nobelium 从 Notion 数据库中抓取数据。你可以在你的浏览器 cookies 中找到它，名称是 `token_v2'。
-    - Notion token 的有效期只有 180 天，请确保在 Vercel Dashboard 上手动更新，我们可能会在未来切换到官方 API 来解决这个问题。此外，如果数据库是非公开到，Notion 中的图片可能无法正常显示到网页上。
-- **稍微等等就可以访问了！** 简单吗?
+- 給這個項目點個小星星 😉
+- 將 [這個 Notion 模板](https://www.notion.so/68be9021bca34b8e89f0246f27e608df) 製作副本，並分享這個頁面給所有人
+- [Fork](https://github.com/craigary/nobelium/fork) 這個項目
+- 在 `blog.config.js` 配置相關選項
+- _(可選)_ 用自己的圖片替換 `/public` 資料夾里的 `avatar.svg`、`favicon.svg` 和 `favicon.ico`
+- 在 [Vercel](https://vercel.com) 上部署這個項目, 設定一下環境變數：
+  - `NOTION_PAGE_ID`: 你剛剛分享出去的 Notion 頁面網址中的頁面 ID，通常是網址中工作區地址后的 32 位字元串
+  - `NOTION_ACCESS_TOKEN`（可選）: 如果你決定不分享你的資料庫，你可以使用 token 來讓 Nobelium 從 Notion 資料庫中抓取數據。你可以在你的瀏覽器 cookies 中找到它，名稱是 `token_v2'。
+    - Notion token 的有效期只有 180 天，請確保在 Vercel Dashboard 上手動更新，我們可能會在未來切換到官方 API 來解決這個問題。此外，如果資料庫是非公開到，Notion 中的圖片可能無法正常顯示到網頁上。
+- **稍微等等就可以訪問了！** 簡單嗎?
 
-<details><summary>等等，什么是 Page ID？</summary>
+<details><summary>等等，什麼是 Page ID？</summary>
   <img src="https://github.com/craigary/nobelium/blob/main/pageid.png?raw=true">
 </details>
 
 ## Roadmap
 
-在这里看看我们的 [Roadmap](https://www.notion.so/craigary/Public-Roadmap-3cfc4d0f0ca642ef8f652673c37add22)
+在這裡看看我們的 [Roadmap](https://www.notion.so/craigary/Public-Roadmap-3cfc4d0f0ca642ef8f652673c37add22)
 
-- [x] 搜索引擎优化
+- [x] 搜索引擎優化
 - [x] 深色模式
 - [x] Open Graph 支持
-- [x] 切换到 react-notion-x
-- [ ] 站点地图
+- [x] 切換到 react-notion-x
+- [ ]  網站地圖
 - [ ] ...
 
-## 技术细节
+## 技術細節
 
 - **生成**: Next.js SSG 和 Incremental Static Regeneration
-- **页面渲染**: [React-notion-x](https://github.com/NotionX/react-notion-x)
-- **样式**: Tailwind CSS 和 `@tailwindcss/jit` compiler
-- **评论**: Gitalk，更多评论系统还在路上
+- **頁面渲染**: [React-notion-x](https://github.com/NotionX/react-notion-x)
+- **樣式**: Tailwind CSS 和 `@tailwindcss/jit` compiler
+- **評論**: Gitalk，更多評論系統還在路上
 
-## 特别感谢
+## 特別感謝
 
 <table>
 <tr align="left">
-    <td align="center"><a href="https://notion.so/cnotion"><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F815be1aa-a8bf-46d0-887e-a1c9d18d8ae9%2Fnotion-logo-no-background.png?table=block&id=e1826899-1cd1-4de8-9b1c-ad0de60baa91&width=250&userId=1f77c970-e682-4c02-b9e8-4164924f04ab&cache=v2" width="80px;" alt=""/><br /><sub><b>Notion 中文社区</b></sub></a></td>
+    <td align="center"><a href="https://notion.so/cnotion"><img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F815be1aa-a8bf-46d0-887e-a1c9d18d8ae9%2Fnotion-logo-no-background.png?table=block&id=e1826899-1cd1-4de8-9b1c-ad0de60baa91&width=250&userId=1f77c970-e682-4c02-b9e8-4164924f04ab&cache=v2" width="80px;" alt=""/><br /><sub><b>Notion 中文社區</b></sub></a></td>
     <td align="center"><a href="https://twitter.com/SilentDepthCN"><img src="https://avatars.githubusercontent.com/u/7194254?s=460&u=d8c805acedf5c49ab8e1bfde58b16d7b7fe2b1bb&v=4" width="80px;" alt=""/><br /><sub><b>SilentDepth</b></sub></a></td>
     <td align="center"><a href="https://leerob.io"><img src="https://avatars.githubusercontent.com/u/9113740?s=460&u=6b5c9843f6d345ee178d1171dd3025610312af35&v=4" width="80px;" alt=""/><br /><sub><b>Lee Rob</b></sub></a></td>
     <td align="center"><a href="https://spencerwoo.com"><img src="https://avatars.githubusercontent.com/u/32114380?s=460&u=81d1f9754f354c63ece17a83196be14b51ee1056&v=4" width="80px;" alt=""/><br /><sub><b>Spencer Woo</b></sub></a></td>
   </tr>
 </table>
 
-## 贡献者
+## 貢獻者
 
 <table>
 <tr align="left">
